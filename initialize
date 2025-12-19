@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+HERE=$(dirname "$(readlink --canonicalize "$BASH_SOURCE")")
+cd "$HERE"
+
+git submodule update --init --remote
+cp --recursive assets/* .
