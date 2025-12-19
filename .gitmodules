@@ -1,0 +1,24 @@
+[submodule "khutulun"]
+	path = khutulun
+	url = https://github.com/tliron/khutulun.git
+[submodule "floria"]
+	path = floria
+	url = https://github.com/tliron/floria.git
+[submodule "puccini"]
+	path = puccini
+	url = https://github.com/tliron/puccini.git
+[submodule "compris"]
+	path = compris
+	url = https://github.com/tliron/compris.git
+[submodule "kutil"]
+	path = kutil
+	url = https://github.com/tliron/kutil.git
+[submodule "depiction"]
+	path = depiction
+	url = https://github.com/tliron/depiction.git
+[submodule "rust-read-url"]
+	path = rust-read-url
+	url = https://github.com/tliron/rust-read-url.git
+[submodule "problemo"]
+	path = problemo
+	url = https://github.com/tliron/problemo.git
