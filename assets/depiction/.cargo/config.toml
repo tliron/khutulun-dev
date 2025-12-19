@@ -1,0 +1,5 @@
+[patch.crates-io]
+depiction = { path = "library" }
+depiction-macros = { path = "macros" }
+kutil = { path = "../kutil/library" }
+problemo = { path = "../problemo" }

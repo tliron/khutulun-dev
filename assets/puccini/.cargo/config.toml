@@ -1,0 +1,15 @@
+[patch.crates-io]
+compris = { path = "../compris/library" }
+compris-macros = { path = "../compris/macros" }
+depiction = { path = "../depiction/library" }
+depiction-macros = { path = "../depiction/macros" }
+floria = { path = "../floria/library" }
+floria-plugin-sdk = { path = "../floria/sdk" }
+kutil = { path = "../kutil/library" }
+kutil-std-macros = { path = "../kutil/std-macros" }
+problemo = { path = "../problemo" }
+puccini-tosca = { path = "tosca" }
+puccini-csar = { path = "csar" }
+puccini-plugin-sdk-tosca-2_0 = { path = "sdk" }
+puccini-plugin-tosca-2_0 = { path = "plugin" }
+read-url = { path = "../rust-read-url/library" }

@@ -1,0 +1,21 @@
+#!/bin/bash
+set -e
+
+HERE=$(dirname "$(readlink --canonicalize "$BASH_SOURCE")")
+cd "$HERE"
+
+function update () {
+    local PROJECT=$1
+    local SOURCE=$HERE/../$PROJECT/.cargo/config.toml
+    local DESTINATION=$HERE/assets/$PROJECT/.cargo/
+    mkdir --parents "$DESTINATION"
+    cp "$SOURCE" "$DESTINATION"
+}
+
+update compris
+update depiction
+update floria
+update khutulun
+update kutil
+update puccini
+update rust-read-url
