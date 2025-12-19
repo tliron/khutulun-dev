@@ -1,0 +1,9 @@
+[patch.crates-io]
+compris = { path = "library" }
+compris-macros = { path = "macros" }
+depiction = { path = "../depiction/library" }
+depiction-macros = { path = "../depiction/macros" }
+kutil = { path = "../kutil/library" }
+kutil-std-macros = { path = "../kutil/std-macros" }
+problemo = { path = "../problemo" }
+read-url = { path = "../rust-read-url/library" }

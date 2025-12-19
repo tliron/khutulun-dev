@@ -1,0 +1,19 @@
+#!/bin/bash
+set -e
+
+HERE=$(dirname "$(readlink --canonicalize "$BASH_SOURCE")")
+cd "$HERE"
+
+echo 'This script will *force update* all the Khutulun development repositories to their latest remote tips.'
+echo
+echo 'This action will overwrite local changes to files!'
+echo
+read -p 'Are you absolutely sure you want to do this? (type "yes") ' YES
+if [ "$YES" = yes ]; then
+    echo yes
+fi
+
+git fetch
+git reset --hard origin/main
+git submodule update --remote --force
+cp --recursive assets/* .
